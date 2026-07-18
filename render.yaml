@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: screenshot-bot
+    runtime: docker
+    plan: free
+    envVars:
+      - key: PORT
+        value: 3000
+      - key: BOT_TOKEN
+        value: 8331453319:AAEGxHtY1eO0RLyHFJKpmdHUcNASDkSNzcs
+      - key: BASE_URL
+        value: https://screenshot-bot.onrender.com
